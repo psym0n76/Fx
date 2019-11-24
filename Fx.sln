@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fx.MessageBus.Wrapper", "Fx
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{86C80D27-3072-4901-84DD-DE2ADF6B54CD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Broker", "Broker", "{D2223CB2-6663-4BF1-BD19-6CAC010F547C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +58,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6FD77EBA-EE29-4F2F-8CD6-A244D24CC56D} = {86C80D27-3072-4901-84DD-DE2ADF6B54CD}
+		{332B1F27-7F00-40D8-B601-38FD881EFED1} = {D2223CB2-6663-4BF1-BD19-6CAC010F547C}
+		{0772C8EC-C151-47CF-B916-47FE298DC5E7} = {D2223CB2-6663-4BF1-BD19-6CAC010F547C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {853DBA9D-0278-4A34-B474-C515E7E32251}

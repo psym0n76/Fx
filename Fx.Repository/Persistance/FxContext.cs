@@ -1,5 +1,4 @@
-﻿using System.Reflection;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace Fx.Repository
 {
@@ -8,7 +7,6 @@ namespace Fx.Repository
         public DbSet<Price> Prices { get; set; }
         public DbSet<Trade> Trades { get; set; }
         public DbSet<Candle> Candles { get; set; }
-
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

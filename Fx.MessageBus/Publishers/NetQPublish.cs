@@ -1,5 +1,4 @@
 ﻿using EasyNetQ;
-using Fx.MessageBus.Wrapper.Publishers;
 using Fx.Domain.Message.Response;
 
 namespace Fx.MessageBus.Wrapper.Publishers
@@ -15,7 +14,6 @@ namespace Fx.MessageBus.Wrapper.Publishers
                 bus.Publish(message);
             }
         }
-
 
         public void PublishTradeMessage(ResponseTrade message)
         {
@@ -34,6 +32,5 @@ namespace Fx.MessageBus.Wrapper.Publishers
                 bus.Publish<ResponseCandle>(message);
             }
         }
-
     }
 }

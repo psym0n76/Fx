@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,7 +9,6 @@ namespace Fx.Repository
         public PriceRepository(DbContext context) : base(context)
         {
         }
-
         public FxContext FxDatabaseContext => Context as FxContext;
 
         public Price GetPrice(int id)

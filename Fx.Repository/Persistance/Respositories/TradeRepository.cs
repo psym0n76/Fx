@@ -9,7 +9,6 @@ namespace Fx.Repository
         public TradeRepository(DbContext context) : base(context)
         {
         }
-
         public FxContext FxDatabaseContext => Context as FxContext;
 
         public Trade GetTrade(int id)

@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 
-
 namespace Fx.Repository
 {
     public interface ICandleRepository : IRepository<Candle>
