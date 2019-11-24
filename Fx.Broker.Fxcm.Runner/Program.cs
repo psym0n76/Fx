@@ -1,7 +1,5 @@
-
 using System;
 using System.Configuration;
-using Fx.MessageBus.Wrapper;
 using Fx.MessageBus.Wrapper.Publishers;
 
 namespace Fx.Broker.Fxcm.Runner
@@ -38,6 +36,5 @@ namespace Fx.Broker.Fxcm.Runner
 
             return 1;
         }
-
     }
 }

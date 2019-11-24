@@ -1,5 +1,4 @@
-﻿using Fx.Domain.Candles.OHLC;
-using Fx.Domain.Enums;
+﻿using Fx.Domain.Enums;
 
 namespace Fx.Domain.Candles
 {
