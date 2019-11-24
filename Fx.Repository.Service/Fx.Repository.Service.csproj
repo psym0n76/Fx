@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire" Version="1.7.7" />
+    <PackageReference Include="Hangfire.Core" Version="1.7.7" />
+    <PackageReference Include="Hangfire.SqlServer" Version="1.7.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fx.Domain\Fx.Domain.csproj" />
+    <ProjectReference Include="..\Fx.MessageBus\Fx.MessageBus.Wrapper.csproj" />
+  </ItemGroup>
+
+</Project>
