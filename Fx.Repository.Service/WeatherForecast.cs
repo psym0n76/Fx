@@ -1,6 +1,6 @@
 using System;
 
-namespace Fx.Repository.WebApi
+namespace Fx.Repository.Api
 {
     public class WeatherForecast
     {

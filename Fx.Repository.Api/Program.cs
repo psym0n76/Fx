@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace Fx.Repository.WebApi
+namespace Fx.Repository.Api
 {
     public class Program
     {

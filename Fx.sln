@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fx.Repository.Service", "Fx.Repository.Service\Fx.Repository.Service.csproj", "{6FD77EBA-EE29-4F2F-8CD6-A244D24CC56D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fx.Repository.WebApi", "Fx.Repository.WebApi\Fx.Repository.WebApi.csproj", "{2A5FF105-DAC7-4085-A866-A7FE4E85F217}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fx.Repository.Api", "Fx.Repository.WebApi\Fx.Repository.Api.csproj", "{2A5FF105-DAC7-4085-A866-A7FE4E85F217}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fx.Repository", "Fx.Repository\Fx.Repository.csproj", "{9D0A4A81-D632-495C-9FBE-5B16E5F6C3C6}"
 EndProject

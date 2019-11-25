@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Fx.Repository.WebApi;
+using Fx.Repository.Api;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 

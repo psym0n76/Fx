@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Fx.Repository.WebApi.Controllers
+namespace Fx.Repository.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

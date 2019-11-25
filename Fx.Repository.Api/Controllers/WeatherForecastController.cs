@@ -4,7 +4,7 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace Fx.Repository.WebApi.Controllers
+namespace Fx.Repository.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]
