@@ -2,7 +2,7 @@
 using System;
 using Fx.Domain.Message.Request;
 
-namespace Fx.MessageBus.Wrapper.Subscribers
+namespace Fx.MessageBus.Subscribers
 {
     public class NetQSubscribe : INetQSubscriber
     {

@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fx.Broker.Fxcm", "Fx.Broker
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fx.Broker.Fxcm.Runner", "Fx.Broker.Fxcm.Runner\Fx.Broker.Fxcm.Runner.csproj", "{0772C8EC-C151-47CF-B916-47FE298DC5E7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fx.MessageBus.Wrapper", "Fx.MessageBus\Fx.MessageBus.Wrapper.csproj", "{FB424D2E-5C2E-4573-A073-BD06730E3957}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fx.MessageBus", "Fx.MessageBus\Fx.MessageBus.csproj", "{FB424D2E-5C2E-4573-A073-BD06730E3957}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{86C80D27-3072-4901-84DD-DE2ADF6B54CD}"
 EndProject

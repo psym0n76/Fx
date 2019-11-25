@@ -91,9 +91,9 @@
       <Project>{91b26d27-dcd0-40fe-8740-88c7b5aed367}</Project>
       <Name>Fx.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Fx.MessageBus\Fx.MessageBus.Wrapper.csproj">
+    <ProjectReference Include="..\Fx.MessageBus\Fx.MessageBus.csproj">
       <Project>{FB424D2E-5C2E-4573-A073-BD06730E3957}</Project>
-      <Name>Fx.MessageBus.Wrapper</Name>
+      <Name>Fx.MessageBus</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

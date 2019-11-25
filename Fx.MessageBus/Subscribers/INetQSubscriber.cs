@@ -1,4 +1,4 @@
-﻿namespace Fx.MessageBus.Wrapper.Subscribers
+﻿namespace Fx.MessageBus.Subscribers
 {
     public interface INetQSubscriber
     {

@@ -1,7 +1,7 @@
 ﻿
 using Fx.Domain.Message.Response;
 
-namespace Fx.MessageBus.Wrapper.Publishers
+namespace Fx.MessageBus.Publishers
 {
     public interface INetQPublish
     {

@@ -1,7 +1,7 @@
 ﻿using EasyNetQ;
 using Fx.Domain.Message.Response;
 
-namespace Fx.MessageBus.Wrapper.Publishers
+namespace Fx.MessageBus.Publishers
 {
     public class NetQPublish : INetQPublish
     {
