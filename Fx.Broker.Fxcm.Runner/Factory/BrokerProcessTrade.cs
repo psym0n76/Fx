@@ -1,9 +1,8 @@
-﻿using Fx.MessageBus.Wrapper.Publishers;
-using Fx.Broker.Fxcm;
-using Fx.Broker.Fxcm.Models;
+﻿using Fx.Broker.Fxcm.Models;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
+using Fx.MessageBus.Publishers;
 
 namespace Fx.Broker.Fxcm.Runner
 {

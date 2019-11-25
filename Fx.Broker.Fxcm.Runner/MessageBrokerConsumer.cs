@@ -1,8 +1,8 @@
 ﻿using System;
 using EasyNetQ;
-using Fx.MessageBus.Wrapper.Publishers;
 using Fx.Domain.Message.Interface;
 using Fx.Domain.Message.Request;
+using Fx.MessageBus.Publishers;
 
 namespace Fx.Broker.Fxcm.Runner
 {

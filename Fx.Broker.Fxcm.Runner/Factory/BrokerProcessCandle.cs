@@ -1,12 +1,12 @@
-﻿using Fx.MessageBus.Wrapper.Publishers;
-using Fx.Broker.Fxcm;
-using Fx.Broker.Fxcm.Models;
+﻿using Fx.Broker.Fxcm.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Fx.Domain.Message.Dto;
 using Fx.Domain.Message.Response;
+using Fx.MessageBus.Publishers;
+
 
 // ReSharper disable once CheckNamespace
 namespace Fx.Broker.Fxcm.Runner

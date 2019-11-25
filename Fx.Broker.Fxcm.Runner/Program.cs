@@ -1,6 +1,6 @@
 using System;
 using System.Configuration;
-using Fx.MessageBus.Wrapper.Publishers;
+using Fx.MessageBus.Publishers;
 
 namespace Fx.Broker.Fxcm.Runner
 {
